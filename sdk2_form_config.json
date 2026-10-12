@@ -1,0 +1,8 @@
+{
+  "expose_time_sec": 1.0,
+  "xcal_file_path": "C:/data/cal_sif/cl1050_g150.SIF",
+  "xcal_apply": true,
+  "save_dir_path": "C:/data",
+  "group_name": "A09",
+  "file_name": "A09_(1,1).csv"
+}

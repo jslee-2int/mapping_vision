@@ -1,0 +1,33 @@
+{
+  "motor_settings": {
+    "lineEdit_2": "200",
+    "lineEdit_6": "200",
+    "lineEdit_3": "50",
+    "lineEdit_7": "50",
+    "lineEdit_8": "5",
+    "lineEdit_4": "5",
+    "spinBox": 8,
+    "spinBox_2": 8,
+    "label_26": "70",
+    "label_29": "4",
+    "label_31": "6",
+    "label_33": "-70"
+  },
+  "laser_settings": {
+    "position_x": 700,
+    "position_y": 517,
+    "threshold_laser": "0.7",
+    "threshold_dots": "0.6"
+  },
+  "detection_settings": {
+    "max_detection_count": 80
+  },
+  "file_settings": {
+    "file_name": "A78",
+    "folder_path": "C:/data"
+  },
+  "itc503_settings": {
+    "gpib_address": "GPIB0::24::INSTR"
+  },
+  "version": "1.0"
+}

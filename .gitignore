@@ -1,0 +1,61 @@
+# Python and local development environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+
+# Local credentials and machine settings
+.env
+.env.*
+!.env.example
+
+# Model weights and training checkpoints (keep these locally)
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.safetensors
+checkpoints/
+**/checkpoints/
+
+# Generated training/evaluation output and datasets
+yolo/results/
+yolo/runs/
+yolo/data/
+autoencoder/test_results/
+dot_detection_system/test_results/
+dot_detection_system/detection_visualization/
+
+# Vendor binaries: install the hardware SDKs separately
+*.dll
+*.lib
+*.exe
+*.so
+*.dylib
+
+# Raw measurements, recordings and archives
+*.sif
+*.SIF
+*.spe
+*.SPE
+*.wav
+*.zip
+*.7z
+*.tar
+*.gz
+*.log
+log/
+logs/
+datas/
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
